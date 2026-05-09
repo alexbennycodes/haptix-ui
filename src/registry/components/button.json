@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "button",
+  "type": "registry:ui",
+  "title": "button",
+  "description": "A shadcn-compatible button component.",
+  "dependencies": ["class-variance-authority", "clsx", "tailwind-merge"],
+  "files": [
+    {
+      "path": "src/components/ui/button.tsx",
+      "type": "registry:ui",
+      "target": "components/ui/button.tsx"
+    },
+    {
+      "path": "src/lib/utils.ts",
+      "type": "registry:lib",
+      "target": "lib/utils.ts"
+    }
+  ]
+}
